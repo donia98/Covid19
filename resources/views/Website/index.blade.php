@@ -62,7 +62,7 @@
                     <a href="index.html">Home</a>
                     <a href="protect.html">Protect</a>
                     <a href="about.html">About</a>
-                    <a href="doctors.html">Doctors</a>
+                    <a href="/doctors">Doctors</a>
                     <a href="news.html">News</a>
                 </div>
             </div>

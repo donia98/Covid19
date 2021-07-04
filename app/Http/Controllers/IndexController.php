@@ -13,7 +13,7 @@ class IndexController extends Controller
      */
     public function index()
     {
-        //
+        return view('Website.index');
     }
 
     /**
@@ -45,7 +45,7 @@ class IndexController extends Controller
      */
     public function show()
     {
-        return view('Website.index');
+        // 
     }
 
     /**
