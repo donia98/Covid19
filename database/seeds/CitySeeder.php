@@ -12,7 +12,43 @@ class CitySeeder extends Seeder
      */
     public function run()
     {
-        $cities = ["ကချင်ပြည်နယ်","ကယားပြည်နယ်","ကရင်ပြည်နယ်","ချင်းပြည်နယ်","စစ်ကိုင်းတိုင်း","တနင်္သာရီတိုင်း","ပဲခူးတိုင်း အရှေ့","ပဲခူးတိုင်း အနောက်","မကွေးတိုင်း","မန္တလေးတိုင်း","မွန်ပြည်နယ်","ရခိုင်ပြည်နယ်","ရန်ကုန်တိုင်း","ရှမ်းပြည်နယ် တောင်ပိုင်း","ရှမ်းပြည်နယ် မြောက်ပိုင်း","ရှမ်းပြည်နယ် အရှေ့ပိုင်း","ဧရာဝတီတိုင်း","နေပြည်တော်တိုင်း"
+        $cities = [
+        "Abasan al-Kabira",
+        "Abu Dis",
+        "Bani Na'im",
+        "Bani Suheila",
+        "Beit Hanoun",
+        "Beit Jala",
+        "Beit Lahia",
+        "Beit Sahour",
+        "Beit Ummar	",
+        "Beitunia",
+        "Bethlehem (Beit Lahm)",
+        "al-Bireh",
+        "Deir al-Balah",
+        "ad-Dhahiriya",
+        "Dura",
+        "Gaza City ",
+        "Halhul",
+        "Hebron (al-Khalil)",
+        "Idhna",
+        "Jabalia",
+        "Jenin",
+        "Jericho (Ariha)",
+        "Khan Yunis",
+        "Nablus",
+        "Qabatiya",
+        "Qalqilya",
+        "Ramallah",
+        "Sa'ir",
+        "as-Samu",
+        "Surif",
+        "Tubas",
+        "Tulkarm",
+        "Ya'bad",
+        "al-Yamun",
+        "Yatta",
+        "az-Zawayda",
         ];
         for ($i=0; $i < 18; $i++) {  
             $City = new City();

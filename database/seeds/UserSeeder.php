@@ -14,12 +14,12 @@ class UserSeeder extends Seeder
     {
         $faker = Faker\Factory::create();
 
-        for ($i = 0; $i < 4; $i++) {
+
             $user = new User();
             $user->name = $faker->name;
-            $user->email = "zeyar$i@gmail.com";
+            $user->email = "donia5@gmail.com";
             $user->password = bcrypt('password'); 
             $user->save();
-        }
+
     }
 }
